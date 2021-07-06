@@ -9,9 +9,6 @@
         <li>
             <a href="/contact">İletişim</a>
         </li>
-        <li>
-            <a href="/blog/firstpost">Blog</a>
-        </li>
     </ul>
 </nav>
 
