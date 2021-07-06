@@ -20,4 +20,4 @@
 
 <h1>{post.title}</h1>
 <p>{post.body}</p>
-<p>- Yazar : <a href={`/authors/${user.id}`}>{user.name}</a></p>
+<p>- Yazar : <a sveltekit:prefetch href={`/authors/${user.id}`}>{user.name}</a></p>
