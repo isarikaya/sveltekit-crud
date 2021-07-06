@@ -13,11 +13,12 @@
 </nav>
 
 <style>
-    ul{
+    ul {
         display: flex;
         list-style: none;
     }
-    li{
+
+    li {
         margin-right: 10px;
     }
 </style>
