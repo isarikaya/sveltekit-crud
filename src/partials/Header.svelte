@@ -21,14 +21,13 @@
         list-style: none;
         margin: 0;
         padding: 0;
-        background-color: rgb(190, 190, 190);
+        background-color: rgb(93, 217, 255);
     }
 
     li {
         margin-right: 10px;
     }
-
     a {
-        text-decoration: none;
+        color: black;
     }
 </style>

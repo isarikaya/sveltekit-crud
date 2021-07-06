@@ -9,8 +9,8 @@
 
 <style>
     .container {
-        height: 100vh;
-        background: rgb(233, 14, 14);
+        max-width: 700px;
+        margin: 50px auto;
     }
 </style>
 

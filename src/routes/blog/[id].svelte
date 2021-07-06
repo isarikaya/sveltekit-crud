@@ -1,29 +1,19 @@
 <script context="module">
-    export const load = ({page}) => {
+    export const load = async({page, fetch}) => {
         const id = page.params.id
-        const host = page.host
-        const path = page.path
-        
+        const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`)
+        const post = await res.json()
         return {
             props: {
-                id,
-                host,
-                path
+                post
             }
         }
     }
 </script>
 
 <script>
-    export let id,host,path;
+    export let post
 </script>
 
-<h1>Svelte & Sveltekit Nedir?</h1>
-<p>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-    Assumenda saepe et veritatis, velit voluptatibus dolores
-    dolor perspiciatis iusto nihil id obcaecati distinctio
-    illo iste quasi architecto porro, fugit inventore eum!
-</p>
-
-{id + " " + host + " " + path}
+<h1>{post.title}</h1>
+<p>{post.body}</p>
