@@ -3,14 +3,13 @@
 </script>
 
 <div class="container">
-   <Header></Header>
-   <slot></slot>
+    <Header></Header>
+    <slot></slot>
 </div>
 
 <style>
     .container {
         height: 100vh;
-        background: rgb(233, 14, 14);
+        background: lightseagreen;
     }
 </style>
-
