@@ -27,9 +27,6 @@
 </script>
 
 <script>
-import { each } from "svelte/internal";
-
-
     export let user,posts
 </script>
 
